@@ -6,6 +6,12 @@ Antes de hacer nada, tenemos que saber con qué vamos a trabajar. Trabajaremos c
 
 ### Arduino UNO
 Esta placa de Arduino se usa especialmente para la educación y aprendizaje en centros educativos, dado a su bajo precio comparado con otro tipo de placas, su alta variedad de usos y compatibilidades y su facilidad de uso y aprendizaje. Esta placa, como otras muchas, se usan en todo el mundo, esto hace que haya muchísimo material a la disposición de todos los usuarios de internet. 
+
+Los componentes de la placa son: un puerto de alimentación, 13 pines dijitales, 6 pines analógicos....................................................................................................................................................
+
+imagen placa
+
+
 [Más info de la placa](https://es.wikipedia.org/wiki/Arduino_Uno)
 
 
