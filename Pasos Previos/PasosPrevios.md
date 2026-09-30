@@ -38,6 +38,57 @@ Este circuito funciona así, empecemos por el polo negativo:
 </p>
 
 
+## Programa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
