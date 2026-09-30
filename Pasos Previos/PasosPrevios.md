@@ -17,6 +17,8 @@ Los componentes de la placa son: un puerto de alimentación, 13 pines digitales,
 
 
 ### Tinkercad
+Tinkercad es una herramienta de modelación 3D muy sencilla e intuitiva. Es muy compatible con todo y fácil de aprender, de ahí a que se use tanto en el aspecto educativo. Esta herramienta tiene tanto diseño 3D como circuitos compatibles con Arduino UNO entre otros. Este modelador lo utilizaremos para los diseños y los circuitos necesarios de los proyectos.
+
 [Más info de Tinkercad](https://es.wikipedia.org/wiki/Tinkercad)---[Enlace a Tinkercad](https://www.tinkercad.com/)
 
 
