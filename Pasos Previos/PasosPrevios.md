@@ -20,7 +20,7 @@ Los componentes de la placa son: un puerto de alimentación, 13 pines digitales,
 Tinkercad es una herramienta de modelación 3D muy sencilla e intuitiva. Es muy compatible con todo y fácil de aprender, de ahí a que se use tanto en el aspecto educativo. Esta herramienta tiene tanto diseño 3D como circuitos compatibles con Arduino UNO entre otros. Este modelador lo utilizaremos para los diseños y los circuitos necesarios de los proyectos.
 
 <p align="center">
-<img width="350" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/66c05bde6085ebe9bdf161c4ba98d7328c162c4a/Pasos%20Previos/Im%C3%A1genes/LogoTinkercad.webp" />
+<img width="320" height="320" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/66c05bde6085ebe9bdf161c4ba98d7328c162c4a/Pasos%20Previos/Im%C3%A1genes/LogoTinkercad.webp" />
 </p>
 
 [Más info de Tinkercad](https://es.wikipedia.org/wiki/Tinkercad)---[Enlace a Tinkercad](https://www.tinkercad.com/)
