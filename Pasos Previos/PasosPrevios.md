@@ -31,6 +31,8 @@ Este circuito funciona así, empecemos por el polo negativo:
 - Por el cable verde, pasa por un diodo y de ahí un cable al pin 4.
 - Y pot último, por el azul, pasa por otro diodo y de ahí al pin 2.
 
+*Los pines son los puertos de comunicación de la placa con el propio circuito
+
 <p align="center">
 <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/f391dc155fd1c09848fa7d05da4fc3f63b87ca45/Pasos%20Previos/Im%C3%A1genes/Reto1Montaje.png" />
 </p>
