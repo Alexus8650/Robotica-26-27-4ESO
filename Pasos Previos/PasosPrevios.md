@@ -9,14 +9,11 @@ Esta placa de Arduino se usa especialmente para la educación y aprendizaje en c
 
 Los componentes de la placa son: un puerto de alimentación, 13 pines digitales, 6 pines analógicos, pines de 5v (Los positivos), pines de gnd (Los negativos), puerto de alimentación externa, un botón de reseteo y un procesador entre muchas otras cosas que se irán explicando en el cuaderno conforme se usen.
 
+[Más info de la placa](https://es.wikipedia.org/wiki/Arduino_Uno)
+
 <p align="center">
 <img width="351" height="290" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/fec8c3e43576cc7b0521adc52895328b64956fca/Pasos%20Previos/Im%C3%A1genes/9347.webp" />
 </p>
-
-
-
-[Más info de la placa](https://es.wikipedia.org/wiki/Arduino_Uno)
-
 
 
 ### Tinkercad
