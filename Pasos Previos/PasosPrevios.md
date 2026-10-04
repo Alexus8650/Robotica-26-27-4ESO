@@ -89,11 +89,20 @@ El resultado final de este void traducido a nuestro idioma sería:
 En el programa de verdad se pone HIGH o LOW (1 o 0) para dar o quitar corriente. Y por supuesto al final de cada línea un punto y coma ( ; ).
 
 
+## Resultado
+El resultado es el expuesto en el programa se van encendiendo y apagando alternativamente cada segundo los dos diodos leds.
 
+Aquí tenemos una foto de cuando el azul está encendido:
 
+<p align="center">
+<img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedAzul.png" />
+</p>
 
+Y despuéas de un segundo cambian:
 
-
+<p align="center">
+<img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedVerde.png" />
+</p>
 
 
 
