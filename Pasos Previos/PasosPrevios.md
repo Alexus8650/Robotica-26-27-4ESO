@@ -45,6 +45,8 @@ Este es el programa que se le implementa a la placa para el funcionamiento del c
 <img width="350" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/9b8c2b577a78e330fa24e7df1841cb440a67d16d/Pasos%20Previos/Im%C3%A1genes/C%C3%B3digoReto1.PNG" />
 </p>
 
+Este programa hace que, con el montaje anterior, se vayan encendiéndose y apagándose alternativamente cada segundo los dos diodos leds.
+
 Todos los programas tienen dos partes básicas:
 - Void setup
 - Void loop
@@ -62,10 +64,29 @@ El "Void Setup" tiene dos líneas de código, en este caso con el mismo uso, per
 
 
 ### Void Loop
+Este "Void" es igual al anterior, solo que al llamarse "Loop" No se hace solo una vez. Se reproducirá continuamente sin descanso, cuando termina empieza por el principio sin parar.
+
+Entre las llaves nos encontramos los siguientes comantos:
+
+- digitalWrite();
+- delay();
+
+El "digitalWrite" le dice al procesador que escriba digitalmente en un pin el estado en el que debe estar, me explico. Al leer la línea, el procesador pone el pin digital indicado en el estado indicado. Ej.: "digitalWrite(2, HIGH);". Traducción: "Dale corriente al pin digital 2.
+
+El "delay" sirve para hacer pausas de tiempo. Al leer este comando, Arduino espera tantos milisegundos como se diga entre los paréntesis. Ej.: "delay(1000);". Traducción: "Esperate 1000 milegundos (1 segundo) antes de leer la siguiente línea".
 
 
+El resultado final de este void traducido a nuestro idioma sería:
+- Dale corriente al pin 2
+- Quítale corriente al pin 4
+- Espera 1s
+- Quítale corriente al pin 2
+- Dale corriente al pin 4
+- Espera 1s
+- Repite todo
 
 
+En el programa de verdad se pone HIGH o LOW (1 o 0) para dar o quitar corriente. Y por supuesto al final de cada línea un punto y coma ( ; ).
 
 
 
