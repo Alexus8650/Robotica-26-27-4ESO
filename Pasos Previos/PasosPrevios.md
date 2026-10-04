@@ -103,22 +103,7 @@ El resultado es el expuesto en el programa se van encendiendo y apagando alterna
 | <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedAzul.png" /> | <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedVerde.png" />   |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Reto 2
 
 
 
