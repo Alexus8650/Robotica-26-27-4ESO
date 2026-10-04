@@ -1,5 +1,11 @@
-# Pasos Previos
-Este trabajo será sencillo, nos ayudará a recordar todo desde el verano. El objetivo final será programar una placa Arduino con la idea de hacer que dos diodos leds vayan encendiéndose y apagándose alternativamente cada segundo.
+# PASOS PREVIOS
+Este trabajo será sencillo, nos ayudará a recordar todo desde el verano. El objetivo final es programar una placa Arduino con la idea de hacer prácticas con muchos componentes compatibles con Arduino.
+
+> Se organizará en "Retos", un reto es una práctica. Empecemos con el primero.
+
+
+# Reto 1
+Este reto consistirá en hacer que dos diodos leds se enciendan y se apagen alternativamente cada segunodo.
 
 
 ## Montaje
