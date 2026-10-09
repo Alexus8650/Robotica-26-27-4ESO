@@ -124,7 +124,9 @@ Empezando por el GND, hay un cable que pasa por el pulsador y luego llega al dio
 
 
 ## Programa
-Por la parte del programa no hay mucho que 
+Por la parte del programa, no hay mucho que explicar. es incluso más sencilla que en el anterior, ya que solo hay un diodo parpadeante.
+El programa es tan sencillo porque no ha que detectar si el botón está siendo detectado o no, el programa manda corriente al pin 13 aúnque el circuito esté abierto por el pulsador. Entonces, si está abierto no parpadea y si está cerrado sí.
+
 <p align="center">
 <img width="400" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/39a737180586bc4b83fd8f71a3e40919e9073065/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Programa.PNG" />
 </p>
