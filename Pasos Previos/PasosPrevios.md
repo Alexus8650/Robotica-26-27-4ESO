@@ -119,7 +119,7 @@ El pulsador es un componente electrónico que permite abrir o cerrar el circuito
 Empezando por el GND, hay un cable que pasa por el pulsador y luego llega al diodo LED, de aquí pasamos otro cable por una resistencia de seguridad y llegamos al pin 13.
 
 <p align="center">
-<img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/5181a51eea5a5c5f89a45c90d978d69b6d03e6ce/Pasos%20Previos/Im%C3%A1genes/Reto1Montaje.png" />
+<img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/c842886291f8ab6005099c3550987b9d5b845433/Pasos%20Previos/Im%C3%A1genes/Retyo%202.PNG" />
 </p>
 
 
