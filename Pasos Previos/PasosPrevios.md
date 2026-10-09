@@ -104,7 +104,7 @@ El resultado es el expuesto en el programa se van encendiendo y apagando alterna
 
 
 # Reto 2
-Este segundo reto tratará de usar un pulsador para hacer parpadear un diodo led.
+Este segundo reto tratará de usar un pulsador para hacer parpadear un diodo led. Este al pulsarse el LED deberá empezar a parpadear cada segundo.
 
 
 ## Montaje
