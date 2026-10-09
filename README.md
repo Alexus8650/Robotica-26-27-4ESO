@@ -29,7 +29,7 @@ Tinkercad es una herramienta de modelación 3D muy sencilla e intuitiva. Es muy 
 
 
 ## Proyectos/Retos
-Empezaremos con la evaluación inicial: [Pasos Previos](Pasos Previos/PasosPrevios.md)
+Empezaremos con la evaluación inicial: [Pasos Previos](https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/main/Pasos%20Previos/PasosPrevios.md)
 
 
 
