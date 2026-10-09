@@ -104,7 +104,23 @@ El resultado es el expuesto en el programa se van encendiendo y apagando alterna
 
 
 # Reto 2
+Este segundo reto tratará de usar un pulsador para hacer parpadear un diodo led.
 
+
+## Montaje
+En el montaje tenemos:
+- Un diodo LED
+- Un puldador
+- Una resistencia
+- Cables
+
+El pulsador es un componente electrónico que permite abrir o cerrar el circuito, depende del tipo que sea. En este caso es pull UP, asique se cierra el circuito cuando se pulsa. Y mientras no se pulse, un muelle abre el circuito evitando la corriente.
+
+Empezando por el GND, hay un cable que pasa por el pulsador y luego llega al diodo LED, de aquí pasamos otro cable por una resistencia de seguridad y llegamos al pin 13.
+
+<p align="center">
+<img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/5181a51eea5a5c5f89a45c90d978d69b6d03e6ce/Pasos%20Previos/Im%C3%A1genes/Reto1Montaje.png" />
+</p>
 
 
 
