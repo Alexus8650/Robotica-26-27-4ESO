@@ -123,7 +123,11 @@ Empezando por el GND, hay un cable que pasa por el pulsador y luego llega al dio
 </p>
 
 
-
+## Programa
+Por la parte del programa no hay mucho que 
+<p align="center">
+<img width="400" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/39a737180586bc4b83fd8f71a3e40919e9073065/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Programa.PNG" />
+</p>
 
 
 
