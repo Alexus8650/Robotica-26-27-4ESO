@@ -114,7 +114,7 @@ En el montaje tenemos:
 - Una resistencia
 - Cables
 
-El pulsador es un componente electrónico que permite abrir o cerrar el circuito, depende del tipo que sea. En este caso es pull UP, asique se cierra el circuito cuando se pulsa. Y mientras no se pulse, un muelle abre el circuito evitando la corriente.
+El pulsador es un componente electrónico que permite abrir o cerrar el circuito depende del tipo que sea. En este caso es pull UP, asique se cierra el circuito cuando se pulsa. Y mientras no se pulse, un muelle abre el circuito evitando la corriente.
 
 Empezando por el GND, hay un cable que pasa por el pulsador y luego llega al diodo LED, de aquí pasamos otro cable por una resistencia de seguridad y llegamos al pin 13.
 
@@ -125,27 +125,17 @@ Empezando por el GND, hay un cable que pasa por el pulsador y luego llega al dio
 
 ## Programa
 Por la parte del programa, no hay mucho que explicar. es incluso más sencilla que en el anterior, ya que solo hay un diodo parpadeante.
-El programa es tan sencillo porque no ha que detectar si el botón está siendo detectado o no, el programa manda corriente al pin 13 aúnque el circuito esté abierto por el pulsador. Entonces, si está abierto no parpadea y si está cerrado sí.
+El programa es tan sencillo porque no ha que detectar si el botón está siendo pulsado o no, el programa manda corriente al pin 13 aúnque el circuito esté abierto por el pulsador. Entonces, si está abierto no parpadea y si está cerrado sí.
 
 <p align="center">
 <img width="400" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/39a737180586bc4b83fd8f71a3e40919e9073065/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Programa.PNG" />
 </p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Resultado
+| Botón sin pulsar | Botón pulsado encendido | Botón pulsado apagado |
+|----------|----------|----------|
+| <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/7c76e6ae763164726cc4f45e3f218abe4520814d/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Montaje.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/Reto%202%20a.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/reto%202%20b.PNG" />  |
 
 
 
