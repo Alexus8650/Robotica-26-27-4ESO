@@ -135,7 +135,7 @@ El programa es tan sencillo porque no ha que detectar si el botón está siendo 
 ## Resultado
 | Botón sin pulsar | Botón pulsado encendido | Botón pulsado apagado |
 |----------|----------|----------|
-| <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/7c76e6ae763164726cc4f45e3f218abe4520814d/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Montaje.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/Reto%202%20a.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/reto%202%20b.PNG" />  |
+| <img width="400" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/7c76e6ae763164726cc4f45e3f218abe4520814d/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Montaje.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/Reto%202%20a.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/reto%202%20b.PNG" />  |
 
 
 
