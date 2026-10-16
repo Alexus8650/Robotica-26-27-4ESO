@@ -138,6 +138,22 @@ El programa es tan sencillo porque no ha que detectar si el botón está siendo 
 | <img width="400" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/7c76e6ae763164726cc4f45e3f218abe4520814d/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Montaje.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/Reto%202%20a.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/reto%202%20b.PNG" />  |
 
 
+# Reto 3
+En este reto se debe conectar el monitor serie con los valores de un potenciómetro para ver los valores en la pantalla
+
+
+## Montaje
+El montaje tiene solo un componente y cables para la conexión.
+
+Este componente es nuevo, se llama potenciómetro, y este es una resistencia variable. Esto significa que puedes controlar los ohmios con los que actúe en el montaje girando una varilla.
+
+Los potenciómetros tienen 3 patillas con las que puedes conectar en el montaje. La izquierda y derecha son para conectar el positivo y negativo del montaje, y la del medio sirve para detectar la diferencia de resistencia del potenciómetro, o con otras palabras, mide la posición del potenciómetro.
+
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/eebaa16743cd4f2936c02f313a6f4a49b0935fc3/Pasos%20Previos/Im%C3%A1genes/montaje%20reto%203.PNG" />
+</p>
+
+
 
 
 
