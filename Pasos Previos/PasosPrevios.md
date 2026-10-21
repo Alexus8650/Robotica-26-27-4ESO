@@ -153,7 +153,11 @@ Los potenciómetros tienen 3 patillas con las que puedes conectar en el montaje.
 <img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/eebaa16743cd4f2936c02f313a6f4a49b0935fc3/Pasos%20Previos/Im%C3%A1genes/montaje%20reto%203.PNG" />
 </p>
 
+Aquí tenemos el montaje en vida real:
 
+| Desde el lado | Desde arriba |
+|----------|----------|
+|<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/dfcf4259c1a4c0d49a0ec1fb235f6d8ab0694669/Pasos%20Previos/Im%C3%A1genes/IMG-20261021-WA0001.jpg" />|<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/dfcf4259c1a4c0d49a0ec1fb235f6d8ab0694669/Pasos%20Previos/Im%C3%A1genes/IMG-20261021-WA0002.jpg" />|
 
 
 
