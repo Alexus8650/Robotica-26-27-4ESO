@@ -4,7 +4,7 @@ Este trabajo será sencillo, nos ayudará a recordar todo desde el verano. El ob
 > Se organizará en "Retos", un reto es una práctica. Empecemos con el primero.
 
 
-# Reto 1
+# Reto 1: Doble intermitente
 Este reto consistirá en hacer que dos diodos leds se enciendan y se apagen alternativamente cada segunodo.
 
 
@@ -103,7 +103,7 @@ El resultado es el expuesto en el programa se van encendiendo y apagando alterna
 | <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedAzul.png" /> | <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedVerde.png" />   |
 
 
-# Reto 2
+# Reto 2: Pulsador
 Este segundo reto tratará de usar un pulsador para hacer parpadear un diodo led. Este al pulsarse el LED deberá empezar a parpadear cada segundo.
 
 
@@ -138,7 +138,7 @@ El programa es tan sencillo porque no ha que detectar si el botón está siendo 
 | <img width="400" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/7c76e6ae763164726cc4f45e3f218abe4520814d/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Montaje.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/Reto%202%20a.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/reto%202%20b.PNG" />  |
 
 
-# Reto 3
+# Reto 3: Potenciómetro Monitor Serie
 En este reto se debe conectar el monitor serie con los valores de un potenciómetro para ver los valores en la pantalla
 
 
@@ -163,138 +163,31 @@ Aquí tenemos el montaje en vida real:
 ## Programa
 Este programa añade lo que son la variables, que es una manera de guardar un valor en una palabra. Es como si a un cajón lo llamas "calcetines" y metes dentro el valor de calcetines que tengas, para el ejemplo digamos que tenemos 5 calcetines; en programación es lo mismo, pero lo llamamos normalmente con algún sentido, en este caso "valor", porque dentro almmacenaremos el valor que recivimos del potenciómetro. Usa una variable de tipo "float" para conseguir decimales, cosa que con una variable de  tipo "int" es imposible ya que solo almacena números enteros.
 
-En el setup declaramos el pin 9 
+En el setup 
 
 
 <p align="center">
-<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/ba18108f983e1cfb9c52f14cb92267f4b32ad9d8/Pasos%20Previos/Im%C3%A1genes/Programa%20reto%203.PNG" />
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/e51300d40301ba4aaaa1255346212aa5e775ee5f/Pasos%20Previos/Im%C3%A1genes/Reto%20programa%203.PNG" />
 </p>
 
 
+# Reto 4: Mapeado de datos del potenciómetro
 
 
+## Montaje
+Es el mismo montaje que en el "Reto 3".
 
 
+## Programa
 
 
+# Reto 5: PWM
 
 
+## Montaje
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Programa
 
 
 
