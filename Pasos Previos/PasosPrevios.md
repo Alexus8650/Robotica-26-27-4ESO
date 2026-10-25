@@ -205,7 +205,7 @@ En el "setup" tenemos la declaración del puerto serie a unos baudios más que s
 El "loop" se usará básicamente para transformar el valor delpotenciómetro y ponerlo en el monitor serie, vamos línea por línea para que se entienda mejor:
 1. Guardamos en la variable "valorpot" lo que se mida en el pin de la variable "Pinpot". Me explico, guarda la posiciñon del potenciómetro (que está conectado al pin A0) en la variable "valorpot".
 2. Guardamos en la variable "mapeopot" el mapeo de 0-1023 a 0-100 del valor que hemos metido antes en la variable "valorpot". Mapear algo es básicamente convertir unos valores en otros, en este caso convertimos valores entre 0 y 1023 a 0 y 100. Si tenemos el valor 0 se convierte en 0, si tenemos el 1023 se convierte en el 100, y así con todos los números del medio.
-3. Ahora solo imprimimos en pantalla el valor resultante del mapeo
+3. Ahora solo imprimimos en pantalla el valor resultante del mapeo.
 4. Hacemos un pequeño delay para que nos dé tiempo a leer lo que hay en pantalla.
 
 <p align="center">
@@ -213,13 +213,23 @@ El "loop" se usará básicamente para transformar el valor delpotenciómetro y p
 </p>
 
 ## Resultado
+El resultado de esto es que conforme giramos el potenciómetro, va a ir saliendo en la pantalla los números desde 0 hasta 100 en vez de 0 a 1023.
 
 
 # Reto 5: PWM
+Este reto es igual que el anterior solo que mapearemos desde 0 a 255 para hacer que un diodo led brille más o menos.
 
 
 ## Montaje
+En este montaje solo hay que añadir un diodo led y una resistencia al circuito de antes.
 
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/ae894c421a78f36938f3b33cbe189e15749efa7d/Pasos%20Previos/Im%C3%A1genes/montaje%20reto5.jpeg" />
+</p>
+
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/ae894c421a78f36938f3b33cbe189e15749efa7d/Pasos%20Previos/Im%C3%A1genes/montaje%20reto%205%20a.jpeg" />
+</p>
 
 ## Programa
 
