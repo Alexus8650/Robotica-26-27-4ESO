@@ -195,6 +195,19 @@ Es el mismo montaje que en el "Reto 3". Solo cambia el programa y la ejecución 
 ## Programa
 El programa se basa en el anterior, pero tiene más complejidad.
 
+Para empezar tiene 3 variables:
+1. Variable int. Esta variable sirve solamente para declarar el pin en el que se encuentra el potenciómetro, de ahí en nombre Pin-pot, "Pinpot".
+2. Variable float. Esta servirá para guardar el valor que esté dando el potenciómetro, de ahí "valorpot".
+3. Variable float. Esta será la variable que se imprimirá en el monitor serie ya que aquí guardaremos el valor del potenciómetro mapeado, de ahí "mapeopot".
+
+En el "setup" tenemos la declaración del puerto serie a unos baudios más que suficientes.
+
+El "loop" se usará básicamente para transformar el valor delpotenciómetro y ponerlo en el monitor serie, vamos línea por línea para que se entienda mejor:
+1. Guardamos en la variable "valorpot" lo que se mida en el pin de la variable "Pinpot". Me explico, guarda la posiciñon del potenciómetro (que está conectado al pin A0) en la variable "valorpot".
+2. Guardamos en la variable "mapeopot" el mapeo de 0-1023 a 0-100 del valor que hemos metido antes en la variable "valorpot". Mapear algo es básicamente convertir unos valores en otros, en este caso convertimos valores entre 0 y 1023 a 0 y 100. Si tenemos el valor 0 se convierte en 0, si tenemos el 1023 se convierte en el 100, y así con todos los números del medio.
+3. Ahora solo imprimimos en pantalla el valor resultante del mapeo
+4. Hacemos un pequeño delay para que nos dé tiempo a leer lo que hay en pantalla.
+
 <p align="center">
 <img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/077234eef771a249c922b8302e44e7a84cbc8188/Pasos%20Previos/Im%C3%A1genes/c%C3%B3digo%20reto%204.PNG" />
 </p>
