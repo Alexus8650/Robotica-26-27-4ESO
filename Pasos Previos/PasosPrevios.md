@@ -251,13 +251,13 @@ Terminemos con el "loop":
 
 
 ## Resultado
+Conforme vas girando el potenciómetro pasan dos cosas:
+1. Aumenta o disminuye el número del monitor serie (mín. 0 y máx 255).
+2. Aumenta o disminuye la luminosidad del diodo led.
 
-0cYxnLRgeP4
-
-[![](https://img.youtube.com/vi/0cYxnLRgeP4/0.jpg)](https://www.youtube.com/watch?v=0cYxnLRgeP4)
-
-
-[![](https://img.youtube.com/vi/0cYxnLRgeP4/0.jpg)](https://www.youtube.com/watch?v=0cYxnLRgeP4)
+| Vídeo explicativo |
+|----------|
+| [![](https://img.youtube.com/vi/0cYxnLRgeP4/0.jpg)](https://www.youtube.com/watch?v=0cYxnLRgeP4) |
 
 
 
