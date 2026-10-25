@@ -163,7 +163,9 @@ Aquí tenemos el montaje en vida real:
 ## Programa
 Este programa añade lo que son la variables, que es una manera de guardar un valor en una palabra. Es como si a un cajón lo llamas "calcetines" y metes dentro el valor de calcetines que tengas, para el ejemplo digamos que tenemos 5 calcetines; en programación es lo mismo, pero lo llamamos normalmente con algún sentido, en este caso "valor", porque dentro almmacenaremos el valor que recivimos del potenciómetro. Usa una variable de tipo "float" para conseguir decimales, cosa que con una variable de  tipo "int" es imposible ya que solo almacena números enteros.
 
-En el setup 
+En el "Setup" se introduce el puerto serie con la declaración: "Serial.begin". El valor que está entre los paréntesis representa los baudios a los que se procesa el puerto serie. Los baudios es una unidicad de cantidad de datos por segundo, en este caso he puesto 9600, tenemos de sobra para lo que queremos hacer.
+
+En el "Loop" utilizamos la variable "valor" que hemos creado antes y le adjudicamos el valor de lo que está midiendo el pin A0, que es el pin en el que se encuentra el potenciómetro. Basicamente le estamos poniendo a la variable el valor del potenciómetro. Después el puerto serie imprime el valor de la variable, me explico, el puerto serie recibe la información y en el monitor serie al que esté conectado la placa, escribe el valor de la variable "valor". Osea que pone en la pantalla la posición del potenciómetro. Y por último le ponemos una espera para poder leer lo que escribe en el monitor serie, y listo.2
 
 
 <p align="center">
@@ -179,6 +181,9 @@ Es el mismo montaje que en el "Reto 3".
 
 
 ## Programa
+
+
+## Resultado
 
 
 # Reto 5: PWM
