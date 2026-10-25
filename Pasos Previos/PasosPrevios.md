@@ -230,6 +230,11 @@ En este montaje solo hay que añadir un diodo led y una resistencia al circuito 
 ## Programa
 
 
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/9a07e7efe379051478bfaa337ae09a4bddfca51a/Pasos%20Previos/Im%C3%A1genes/Programa%20reto%205.PNG" />
+</p>
+
+
 ## Resultado
 
 
