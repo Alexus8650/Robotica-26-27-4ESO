@@ -173,6 +173,14 @@ En el "Loop" utilizamos la variable "valor" que hemos creado antes y le adjudica
 </p>
 
 
+## Resultado
+En el monitor serie de arduino empieza a verse los datos que detecta del potenciómetro conforme lo mueves:
+
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/e51300d40301ba4aaaa1255346212aa5e775ee5f/Pasos%20Previos/Im%C3%A1genes/Reto%20programa%203.PNG" />
+</p>
+
+
 # Reto 4: Mapeado de datos del potenciómetro
 
 
@@ -195,6 +203,7 @@ Es el mismo montaje que en el "Reto 3".
 ## Programa
 
 
+## Resultado
 
 
 
