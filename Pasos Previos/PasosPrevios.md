@@ -3,7 +3,7 @@ Este trabajo será sencillo, nos ayudará a recordar todo desde el verano. El ob
 
 > Se organizará en "Retos", un reto es una práctica. Empecemos con el primero.
 
-
+#
 # Reto 1: Doble intermitente
 Este reto consistirá en hacer que dos diodos leds se enciendan y se apagen alternativamente cada segunodo.
 
@@ -103,6 +103,7 @@ El resultado es el expuesto en el programa se van encendiendo y apagando alterna
 | <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedAzul.png" /> | <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedVerde.png" />   |
 
 
+#
 # Reto 2: Pulsador
 Este segundo reto tratará de usar un pulsador para hacer parpadear un diodo led. Este al pulsarse el LED deberá empezar a parpadear cada segundo.
 
@@ -138,6 +139,7 @@ El programa es tan sencillo porque no ha que detectar si el botón está siendo 
 | <img width="400" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/7c76e6ae763164726cc4f45e3f218abe4520814d/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Montaje.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/Reto%202%20a.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/reto%202%20b.PNG" />  |
 
 
+#
 # Reto 3: Potenciómetro Monitor Serie
 En este reto se debe conectar el monitor serie con los valores de un potenciómetro para ver los valores en la pantalla
 
@@ -181,6 +183,7 @@ En el monitor serie de arduino empieza a verse los datos que detecta del potenci
 </p>
 
 
+#
 # Reto 4: Mapeado de datos del potenciómetro
 Este reto se basa en el anterior, solo se implementará la función del mapeado en el código para transformar los datos del potenciómetro (0-1023) a otros.
 
@@ -216,6 +219,7 @@ El "loop" se usará básicamente para transformar el valor delpotenciómetro y p
 El resultado de esto es que conforme giramos el potenciómetro, va a ir saliendo en la pantalla los números desde 0 hasta 100 en vez de 0 a 1023.
 
 
+#
 # Reto 5: PWM
 Este reto es igual que el anterior solo que mapearemos desde 0 a 255 para hacer que un diodo led brille más o menos.
 
