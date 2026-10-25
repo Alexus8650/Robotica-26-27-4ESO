@@ -252,10 +252,9 @@ Terminemos con el "loop":
 
 ## Resultado
 
+0cYxnLRgeP4
 
-
-
-
+[![](https://img.youtube.com/vi/v=0cYxnLRgeP4/0.jpg)](https://www.youtube.com/watch?v=0cYxnLRgeP4)
 
 
 
