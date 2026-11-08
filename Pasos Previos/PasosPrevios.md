@@ -294,12 +294,14 @@ En el "loop" imprimimos en el monitor serie la distancia que están midiendo los
 <img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/3cbabff22dea87dd0844cd3d0c1cae56df7fc566/Pasos%20Previos/Im%C3%A1genes/C%C3%B3digo%20reto6.PNG" />
 </p>
 
+
 ## Resultado
 Cuando acercas un objeto lo suficientemente cerca se enciende el diodo y cuando lo alejas se apaga
 
 | Vídeo explicativo |
 |----------|
 | [![](https://img.youtube.com/vi/9Uz1whs7GcA/0.jpg)](https://www.youtube.com/watch?v=9Uz1whs7GcA) |
+
 
 # Reto 7: Ultrasonidos-distancia
 Este reto debe de tener dos diodos que se vayan apagando y encendiendo según la distancia que marque el ultrasonido. Cuanto más cerca más luminosidad y cuanto más lejos menos luminosidad.
@@ -313,7 +315,23 @@ Este montaje es el mismo de antes solo que hemos añadido un diodo al circuito e
 </p>
 
 ## Programa
+Este programa empieza similar al anterior, la biblioteca y las variables para el ultrasonidos, pero añadimos una más para controlar la luminosidad de los leds que la he llamade "led".
 
+En el "setup" denominamos los pines de los diodos y el trigger como "OUTPUT" y el echo como "INPUT", igual que en el reto anterior.
+
+Y por último, en el "loop", mapeamos los datos de los ultrasonidos (de 0cm-250cm) a los de los diodos (de 0-255), y metemos lo obtenido en la variable led. En este caso podríamos quitar el mapeo y asumir el error de esos 5 valores de diferencia, pero para hacerlo más profesional lo hemos hecho así. Después le adjudicamos a los leds el valor del mapeo y ponemos un breve delay.
+
+<p align="center">
+<img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2050e962dcdce6569861bf43aeb6c1295ea283a4/Pasos%20Previos/Im%C3%A1genes/C%C3%B3digo%207.PNG" />
+</p>
+
+
+## Resultado
+
+
+| Vídeo explicativo |
+|----------|
+| [![](https://img.youtube.com/vi/L941nMJFVLo/0.jpg)](https://www.youtube.com/watch?v=L941nMJFVLo) |
 
 
 # Reto 8: Ultrasonido-potenciómetro
