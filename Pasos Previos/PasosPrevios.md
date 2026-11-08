@@ -295,7 +295,11 @@ En el "loop" imprimimos en el monitor serie la distancia que están midiendo los
 </p>
 
 ## Resultado
+Cuando acercas un objeto lo suficientemente cerca se enciende el diodo y cuando lo alejas se apaga
 
+| Vídeo explicativo |
+|----------|
+| [![](https://img.youtube.com/vi/9Uz1whs7GcA/0.jpg)](https://www.youtube.com/watch?v=9Uz1whs7GcA) |
 
 # Reto 7: Ultrasonidos-distancia
 
