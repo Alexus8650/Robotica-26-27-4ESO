@@ -302,9 +302,28 @@ Cuando acercas un objeto lo suficientemente cerca se enciende el diodo y cuando 
 | [![](https://img.youtube.com/vi/9Uz1whs7GcA/0.jpg)](https://www.youtube.com/watch?v=9Uz1whs7GcA) |
 
 # Reto 7: Ultrasonidos-distancia
+Este reto debe de tener dos diodos que se vayan apagando y encendiendo según la distancia que marque el ultrasonido. Cuanto más cerca más luminosidad y cuanto más lejos menos luminosidad.
+
+
+## Montaje
+Este montaje es el mismo de antes solo que hemos añadido un diodo al circuito en el pin 10.
+
+<p align="center">
+<img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/a5b7ab6718f87a80e4d3a6d4558a03338678943a/Pasos%20Previos/Im%C3%A1genes/Montaje%207.jpeg" />
+</p>
+
+## Programa
+
 
 
 # Reto 8: Ultrasonido-potenciómetro
+
+
+## Montaje
+
+
+## Programa
+
 
 
 
