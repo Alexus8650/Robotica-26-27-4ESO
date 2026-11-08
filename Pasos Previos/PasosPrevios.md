@@ -348,7 +348,11 @@ El montaje es el mismo que en el anterior, pero ahora se le añade una línea m�
 ## Programa
 Este programa es similar al del reto 6, pero se hace un mapeo del potenciómetro al límite del diodo.
 
+Empezamos con la biblioteca de los ultrasonidos, la variable "Ultrasonic" y las variables trigger y echo. Añado una variable "pot" para medir el potenciómetro y "límite" para modificar el límite de los diodos.
 
+En el "setup" tenemos lo mismo que en el reto anterior. Denominar "OUTPUT" o "INPUT" los diodos y el trigger y echo del ultrasonidos.
+
+Y en el "loop" empezamos midiendo el potenciómetro, que está en el pin A0. Y con esto medido, mapeamos el valor de esta variable, con valores de 0 a 1023, y lo transformamos en valores de 0 a 50, que son los centímetros que está midiendo el ultrasonidos. Y le ponemos 50 en vez de 250 por comodidad y no tener que levantarse y alejarse dos metros para hacer una prueba. Ahora, le ponemos el nuevo límite adjudicado al "if" que he explicado en el reto 6 y hará que se enciendan los diodos cuando traspase el límite que se haya puesto y se apagarán cuando no lo supere. Lo hemos hecho con 2 diodos porque lo teníamos así del reto anterior, pero solo se necesitaba uno.
 
 <p align="center">
 <img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/ac9f1b17eb352230986d8af4ece8cb7a40ba5113/Pasos%20Previos/Im%C3%A1genes/codigo%208.PNG" />
@@ -357,7 +361,9 @@ Este programa es similar al del reto 6, pero se hace un mapeo del potenciómetro
 ## Resultado
 
 
-
+| Vídeo explicativo |
+|----------|
+| [![](https://img.youtube.com/vi/AflhOGCzDOw/0.jpg)](https://www.youtube.com/watch?v=AflhOGCzDOw) |
 
 
 
