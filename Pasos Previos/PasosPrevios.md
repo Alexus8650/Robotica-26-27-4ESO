@@ -311,7 +311,7 @@ Este reto debe de tener dos diodos que se vayan apagando y encendiendo según la
 Este montaje es el mismo de antes solo que hemos añadido un diodo al circuito en el pin 10.
 
 <p align="center">
-<img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/a5b7ab6718f87a80e4d3a6d4558a03338678943a/Pasos%20Previos/Im%C3%A1genes/Montaje%207.jpeg" />
+<img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/7bae8ecf42b98c050ae1bfdcd334f86fdbedc277/Pasos%20Previos/Im%C3%A1genes/Montake%207.jpeg" />
 </p>
 
 ## Programa
