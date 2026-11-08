@@ -359,7 +359,7 @@ Y en el "loop" empezamos midiendo el potenciómetro, que está en el pin A0. Y c
 </p>
 
 ## Resultado
-
+En este vídeo podemos ver que juego con el límite moviendo el potenciómetro y luego voy hacercando la mano hasta que se encienden los diodos al altravesar el límite.
 
 | Vídeo explicativo |
 |----------|
