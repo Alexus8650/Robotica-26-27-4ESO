@@ -327,7 +327,7 @@ Y por último, en el "loop", mapeamos los datos de los ultrasonidos (de 0cm-250c
 
 
 ## Resultado
-
+Conforme más se acerca la mano más se ilumina y biceversa.
 
 | Vídeo explicativo |
 |----------|
@@ -335,13 +335,26 @@ Y por último, en el "loop", mapeamos los datos de los ultrasonidos (de 0cm-250c
 
 
 # Reto 8: Ultrasonido-potenciómetro
+Este reto es el mismo que el reto 6, pero ahora el límite al que se enciende el diodo se controla con un potenciómetro, se puede aumentar y disminuir.
 
 
 ## Montaje
+El montaje es el mismo que en el anterior, pero ahora se le añade una línea más que tiene un potenciómetro, con GND, 5V y la patilla del medio al pin A0 (en este caso).
 
+<p align="center">
+<img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/ac9f1b17eb352230986d8af4ece8cb7a40ba5113/Pasos%20Previos/Im%C3%A1genes/Montaje8.jpeg" />
+</p>
 
 ## Programa
+Este programa es similar al del reto 6, pero se hace un mapeo del potenciómetro al límite del diodo.
 
+
+
+<p align="center">
+<img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/ac9f1b17eb352230986d8af4ece8cb7a40ba5113/Pasos%20Previos/Im%C3%A1genes/codigo%208.PNG" />
+</p>
+
+## Resultado
 
 
 
