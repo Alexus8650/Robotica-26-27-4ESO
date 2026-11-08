@@ -291,7 +291,7 @@ En el "setup" tenemos el serial begin y deniminamos el pin del led y del trigger
 En el "loop" imprimimos en el monitor serie la distancia que están midiendo los ultrasonidos en "cm" que lo ponemos después. Y luego de un delay de medio segundo usamos una condicional, el "if". Esto sirve para reproducir algo solo si ocurre otra cosa, en este caso: si los ultrasonidos miden menos de 15 cm haz lo siguiente. En este caso encendería el led que está en el pin 9. Y por último tenemos un "else" que significa "sino": si no mide menos de 15 cm (o dicho de otra manera, si mide más de 15) haz lo siguiente. En este caso apagar el diodo.
 
 <p align="center">
-<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/3cbabff22dea87dd0844cd3d0c1cae56df7fc566/Pasos%20Previos/Im%C3%A1genes/C%C3%B3digo%20reto6.PNG" />
+<img width="300" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/3cbabff22dea87dd0844cd3d0c1cae56df7fc566/Pasos%20Previos/Im%C3%A1genes/C%C3%B3digo%20reto6.PNG" />
 </p>
 
 ## Resultado
