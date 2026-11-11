@@ -3,7 +3,7 @@ Este trabajo será sencillo, nos ayudará a recordar todo desde el verano. El ob
 
 > Se organizará en "Retos", un reto es una práctica. Empecemos con el primero.
 
-#
+
 # Reto 1: Doble intermitente
 Este reto consistirá en hacer que dos diodos leds se enciendan y se apagen alternativamente cada segunodo.
 
@@ -103,7 +103,6 @@ El resultado es el expuesto en el programa se van encendiendo y apagando alterna
 | <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedAzul.png" /> | <img width="500" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/2e846fe006de81482aa3dcbec59a1d30e59dc0ac/Pasos%20Previos/Im%C3%A1genes/Reto1LedVerde.png" />   |
 
 
-#
 # Reto 2: Pulsador
 Este segundo reto tratará de usar un pulsador para hacer parpadear un diodo led. Este al pulsarse el LED deberá empezar a parpadear cada segundo.
 
@@ -139,7 +138,6 @@ El programa es tan sencillo porque no ha que detectar si el botón está siendo 
 | <img width="400" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/7c76e6ae763164726cc4f45e3f218abe4520814d/Pasos%20Previos/Im%C3%A1genes/Reto%202%20Montaje.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/Reto%202%20a.PNG" /> | <img width="200" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/1f65b21096d9aaa8350781168e00b0640730718c/Pasos%20Previos/Im%C3%A1genes/reto%202%20b.PNG" />  |
 
 
-#
 # Reto 3: Potenciómetro Monitor Serie
 En este reto se debe conectar el monitor serie con los valores de un potenciómetro para ver los valores en la pantalla
 
@@ -167,7 +165,7 @@ Este programa añade lo que son la variables, que es una manera de guardar un va
 
 En el "Setup" se introduce el puerto serie con la declaración: "Serial.begin". El valor que está entre los paréntesis representa los baudios a los que se procesa el puerto serie. Los baudios es una unidicad de cantidad de datos por segundo, en este caso he puesto 9600, tenemos de sobra para lo que queremos hacer.
 
-En el "Loop" utilizamos la variable "valor" que hemos creado antes y le adjudicamos el valor de lo que está midiendo el pin A0, que es el pin en el que se encuentra el potenciómetro. Basicamente le estamos poniendo a la variable el valor del potenciómetro. Después el puerto serie imprime el valor de la variable, me explico, el puerto serie recibe la información y en el monitor serie al que esté conectado la placa, escribe el valor de la variable "valor". Osea que pone en la pantalla la posición del potenciómetro. Y por último le ponemos una espera para poder leer lo que escribe en el monitor serie, y listo.2
+En el "Loop" utilizamos la variable "valor" que hemos creado antes y le adjudicamos el valor de lo que está midiendo el pin A0, que es el pin en el que se encuentra el potenciómetro. Básicamente le estamos poniendo a la variable el valor del potenciómetro. Después el puerto serie imprime el valor de la variable con la línea de código "print.ln", me explico, esta línra hace que el puerto serie reciba la lo que quiere imprimir y en el monitor serie se escribe el valor de la variable "valor", ya que es lo que está entre paréntesis. Es decir que pone en la pantalla la posición del potenciómetro. Y por último le ponemos una espera para poder leer lo que escribe en el monitor serie, y listo.2
 
 
 <p align="center">
