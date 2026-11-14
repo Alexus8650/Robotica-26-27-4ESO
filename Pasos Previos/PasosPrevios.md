@@ -97,7 +97,7 @@ En el programa de verdad se pone HIGH o LOW (1 o 0) para dar o quitar corriente.
 Aquí tenemos un diagrama de flujo explicativo:
 
 <p align="center">
-<img width="350" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto1.png" />
+<img alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto1.png" />
 </p>
 
 
@@ -133,7 +133,7 @@ Empezando por el GND, hay un cable que pasa por el pulsador y luego llega al dio
 Diagrama de flujo explicativo:
 
 <p align="center">
-<img width="350" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto2.png" />
+<img alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto2.png" />
 </p>
 
 Por la parte del programa, no hay mucho que explicar. es incluso más sencilla que en el anterior, ya que solo hay un diodo parpadeante.
@@ -176,7 +176,7 @@ Aquí tenemos el montaje en vida real:
 Diagrama de flujo explicativo:
 
 <p align="center">
-<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto3.png" />
+<img alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto3.png" />
 </p>
 
 Este programa añade lo que son la variables, que es una manera de guardar un valor en una palabra. Es como si a un cajón lo llamas "calcetines" y metes dentro el valor de calcetines que tengas, para el ejemplo digamos que tenemos 5 calcetines; en programación es lo mismo, pero lo llamamos normalmente con algún sentido, en este caso "valor", porque dentro almmacenaremos el valor que recivimos del potenciómetro. Usa una variable de tipo "float" para conseguir decimales, cosa que con una variable de  tipo "int" es imposible ya que solo almacena números enteros.
@@ -217,7 +217,7 @@ El programa se basa en el anterior, pero tiene más complejidad.
 Diagrama de flujo explicativo:
 
 <p align="center">
-<img width="360" height="420" alt="download" src="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+<img alt="download" src="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
 </p>
 
 Para empezar tiene 3 variables:
@@ -256,7 +256,7 @@ En este montaje solo hay que añadir un diodo led y una resistencia al circuito 
 Diagrama de flujo explicativo:
 
 <p align="center">
-<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto5.png" />
+<img alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto5.png" />
 </p>
 
 Expliquémoslo línea por línea para entender más, empecemos por las vasriables:
@@ -313,7 +313,7 @@ El diodo se conecta al pin nueve con una resistencia en serie.
 Diagrama de flujo explicativo:
 
 <p align="center">
-<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto6.png" />
+<img alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto6.png" />
 </p>
 
 Los ultrasonidos son muy complicados de programar con solo Arduino. Pero existen lo que son las librerías, que son como ampliaciones que se le hace a Arduino, y con esto es muchísimo más sencillo trabajar con los ultrasonidos. Por eso al principio del programa tenemos un "#include <ultrasonic.h>", el "#include < .h>" es para añadir una librería y "Ultrasonic" es el nombre. Con esto podemos meter funcionen y ordenes que ates no existían, como la variable "Ultrasonic".
@@ -354,7 +354,7 @@ Este programa empieza similar al anterior, la biblioteca y las variables para el
 Diagrama de flujo explicativo:
 
 <p align="center">
-<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto7.png" />
+<img alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto7.png" />
 </p>
 
 En el "setup" denominamos los pines de los diodos y el trigger como "OUTPUT" y el echo como "INPUT", igual que en el reto anterior.
@@ -391,7 +391,7 @@ Este programa es similar al del reto 6, pero se hace un mapeo del potenciómetro
 Diagrama de flujo explicativo:
 
 <p align="center">
-<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto8.png" />
+<img alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto8.png" />
 </p>
 
 Empezamos con la biblioteca de los ultrasonidos, la variable "Ultrasonic" y las variables trigger y echo. Añado una variable "pot" para medir el potenciómetro y "límite" para modificar el límite de los diodos.
