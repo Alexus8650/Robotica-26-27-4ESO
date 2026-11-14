@@ -94,6 +94,12 @@ El resultado final de este void traducido a nuestro idioma sería:
 
 En el programa de verdad se pone HIGH o LOW (1 o 0) para dar o quitar corriente. Y por supuesto al final de cada línea un punto y coma ( ; ).
 
+Aquí tenemos un diagrama de flujo explicativo:
+
+<p align="center">
+<img width="350" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto1.png" />
+</p>
+
 
 ## Resultado
 El resultado es el expuesto en el programa se van encendiendo y apagando alternativamente cada segundo los dos diodos leds.
@@ -124,6 +130,12 @@ Empezando por el GND, hay un cable que pasa por el pulsador y luego llega al dio
 
 
 ## Programa
+Diagrama de flujo explicativo:
+
+<p align="center">
+<img width="350" height="350" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto2.png" />
+</p>
+
 Por la parte del programa, no hay mucho que explicar. es incluso más sencilla que en el anterior, ya que solo hay un diodo parpadeante.
 El programa es tan sencillo porque no ha que detectar si el botón está siendo pulsado o no, el programa manda corriente al pin 13 aúnque el circuito esté abierto por el pulsador. Entonces, si está abierto no parpadea y si está cerrado sí.
 
@@ -161,6 +173,12 @@ Aquí tenemos el montaje en vida real:
 
 
 ## Programa
+Diagrama de flujo explicativo:
+
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto3.png" />
+</p>
+
 Este programa añade lo que son la variables, que es una manera de guardar un valor en una palabra. Es como si a un cajón lo llamas "calcetines" y metes dentro el valor de calcetines que tengas, para el ejemplo digamos que tenemos 5 calcetines; en programación es lo mismo, pero lo llamamos normalmente con algún sentido, en este caso "valor", porque dentro almmacenaremos el valor que recivimos del potenciómetro. Usa una variable de tipo "float" para conseguir decimales, cosa que con una variable de  tipo "int" es imposible ya que solo almacena números enteros.
 
 En el "Setup" se introduce el puerto serie con la declaración: "Serial.begin". El valor que está entre los paréntesis representa los baudios a los que se procesa el puerto serie. Los baudios es una unidicad de cantidad de datos por segundo, en este caso he puesto 9600, tenemos de sobra para lo que queremos hacer.
@@ -181,7 +199,7 @@ En el monitor serie de arduino empieza a verse los datos que detecta del potenci
 </p>
 
 
-#
+
 # Reto 4: Mapeado de datos del potenciómetro
 Este reto se basa en el anterior, solo se implementará la función del mapeado en el código para transformar los datos del potenciómetro (0-1023) a otros.
 
@@ -195,6 +213,12 @@ Es el mismo montaje que en el "Reto 3". Solo cambia el programa y la ejecución 
 
 ## Programa
 El programa se basa en el anterior, pero tiene más complejidad.
+
+Diagrama de flujo explicativo:
+
+<p align="center">
+<img width="360" height="420" alt="download" src="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+</p>
 
 Para empezar tiene 3 variables:
 1. Variable int. Esta variable sirve solamente para declarar el pin en el que se encuentra el potenciómetro, de ahí en nombre Pin-pot, "Pinpot".
@@ -229,6 +253,12 @@ En este montaje solo hay que añadir un diodo led y una resistencia al circuito 
 | <img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/ae894c421a78f36938f3b33cbe189e15749efa7d/Pasos%20Previos/Im%C3%A1genes/montaje%20reto5.jpeg" /> | <img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/ae894c421a78f36938f3b33cbe189e15749efa7d/Pasos%20Previos/Im%C3%A1genes/montaje%20reto%205%20a.jpeg" /> |
 
 ## Programa
+Diagrama de flujo explicativo:
+
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto5.png" />
+</p>
+
 Expliquémoslo línea por línea para entender más, empecemos por las vasriables:
 1. int "Pinpot", esta declara, como en el programa anterior, el pin al que está conectado el potenciómetro.
 2. int "Pinled", este, al igual que la anterior, declara el pin de un componente, pero en este caso es el de un led. Este led se debe encontrar en un pin digital especial, debe tener una virgulilla este pin, ya que estos pines tienen la característica de imitar pines analógicos. Y necesitamos esta función para poder modificar la intensidad de luz del diodo.
@@ -280,6 +310,12 @@ El diodo se conecta al pin nueve con una resistencia en serie.
 
 
 ## Programa
+Diagrama de flujo explicativo:
+
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto6.png" />
+</p>
+
 Los ultrasonidos son muy complicados de programar con solo Arduino. Pero existen lo que son las librerías, que son como ampliaciones que se le hace a Arduino, y con esto es muchísimo más sencillo trabajar con los ultrasonidos. Por eso al principio del programa tenemos un "#include <ultrasonic.h>", el "#include < .h>" es para añadir una librería y "Ultrasonic" es el nombre. Con esto podemos meter funcionen y ordenes que ates no existían, como la variable "Ultrasonic".
 
 Después de la librería tenemos los pines del trigger y del echo en variables y usamos la variable "Ultrasonic" para denominar el ultrasonido al programa, en este caso se llama "OurModule" y denomina el pin del trigger y del echo, al igual de la distancia máxima a la que le dejarás los ultrasonidos llegar.
@@ -315,6 +351,12 @@ Este montaje es el mismo de antes solo que hemos añadido un diodo al circuito e
 ## Programa
 Este programa empieza similar al anterior, la biblioteca y las variables para el ultrasonidos, pero añadimos una más para controlar la luminosidad de los leds que la he llamade "led".
 
+Diagrama de flujo explicativo:
+
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto7.png" />
+</p>
+
 En el "setup" denominamos los pines de los diodos y el trigger como "OUTPUT" y el echo como "INPUT", igual que en el reto anterior.
 
 Y por último, en el "loop", mapeamos los datos de los ultrasonidos (de 0cm-250cm) a los de los diodos (de 0-255), y metemos lo obtenido en la variable led. En este caso podríamos quitar el mapeo y asumir el error de esos 5 valores de diferencia, pero para hacerlo más profesional lo hemos hecho así. Después le adjudicamos a los leds el valor del mapeo y ponemos un breve delay.
@@ -345,6 +387,12 @@ El montaje es el mismo que en el anterior, pero ahora se le añade una línea m�
 
 ## Programa
 Este programa es similar al del reto 6, pero se hace un mapeo del potenciómetro al límite del diodo.
+
+Diagrama de flujo explicativo:
+
+<p align="center">
+<img width="360" height="420" alt="download" src="https://github.com/Alexus8650/Robotica-26-27-4ESO/blob/29d1190d585b26c62be0ca4db590b46484405a90/Pasos%20Previos/Im%C3%A1genes/DiagramaReto8.png" />
+</p>
 
 Empezamos con la biblioteca de los ultrasonidos, la variable "Ultrasonic" y las variables trigger y echo. Añado una variable "pot" para medir el potenciómetro y "límite" para modificar el límite de los diodos.
 
